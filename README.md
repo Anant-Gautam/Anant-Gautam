@@ -1,3 +1,3 @@
 # Anant-s-Personal-Site
 
-I am a programmer and a website developer and created my first website, in which I introduced myself. This website will give you almost all information about me.
+I've recently launched my inaugural website, which serves as a comprehensive introduction to my background, skills, and experience as a proficient programmer and adept website developer. This platform delivers in-depth insights into my professional journey and the value I bring to the table.
