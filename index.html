@@ -1,42 +1,183 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <title>Anant's Personal Site</title>
-        <link rel="icon" href="profile.png">
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-        <link href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="styles.css">
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
-    </head>
-    <body>
-        <div class="Anant" id="first">
-            <table>
-                <tr>
-                    <td>
-                        <div class="intro">
-                            <img class="profile-image" src="profile.png" alt="Profile image">
-                            <br>
-                            <h1 class="heading">Anant Gautam,</h1>
-                            <br>
-                            <p class="introduction">A Programmer</p>
-                        </div>
-                    </td>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        /* width */
+        ::-webkit-scrollbar {
+          width: 10px;
+        }
+        
+        /* Track */
+        ::-webkit-scrollbar-track {
+          background: #f1f1f1; 
+        }
+         
+        /* Handle */
+        ::-webkit-scrollbar-thumb {
+          background: #888; 
+        }
+        
+        /* Handle on hover */
+        ::-webkit-scrollbar-thumb:hover {
+          background: #555; 
+        }
 
-                    <td>
-                        <div class="nav-bar">
-                            <a href="about.html" class="nav-link"><em>About</em><br><br></a><br>
-                            <a href="Skills.html" class="nav-link"><em>Skills</em><br><br></a><br>
-                            <a href="Contact.html" class="nav-link"><em>Contact</em></a><br>
-                        </div>
-                    </td>
-                </tr>
-            </table>
+        * {
+          box-sizing: border-box;
+        }
+
+        /* Style inputs */
+        input[type=text], select, textarea {
+          width: 100%;
+          padding: 12px;
+          border: 1px solid #ccc;
+          margin-top: 6px;
+          margin-bottom: 16px;
+          resize: vertical;
+        }
+
+        input[type=submit] {
+          background-color: #04AA6D;
+          color: white;
+          padding: 12px 20px;
+          border: none;
+          cursor: pointer;
+        }
+
+        input[type=submit]:hover {
+          background-color: #45a049;
+        }
+
+        /* Style the container/contact section */
+        .container {
+          border-radius: 5px;
+          background-color: #f2f2f2;
+          padding: 10px;
+        }
+
+        /* Create two columns that float next to eachother */
+        .column {
+          float: left;
+          width: 50%;
+          margin-top: 6px;
+          padding: 20px;
+        }
+
+        /* Clear floats after the columns */
+        .row:after {
+          content: "";
+          display: table;
+          clear: both;
+        }
+
+        /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+        @media screen and (max-width: 600px) {
+          .column, input[type=submit] {
+            width: 100%;
+            margin-top: 0;
+          }
+        }
+      </style>
+    <link href="https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&family=Parkinsans:wght@300..800&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <title>My personal website</title>
+    <link rel="stylesheet" href="Styles.css">
+</head>
+<body>
+    <p class="subtitle">Anant Gautam</p>
+    <img src="C:\Users\EC302WS\OneDrive\Desktop\Anant\Anant's Coding\Website developing\HTML and CSS\Personal Website\Earth.jpg" class="image-main" alt="Universe image">
+    <div class="Title">
+        Explore my personal website
+        <p class="slogan">Curiosity Driven | Code Enthusiast</p>
+    </div>
+
+    <section class="about-me">
+        <p class="head-text">
+            About Me
+        </p>
+        <div class="card" style="width: 18rem;">
+            <div class="card-body">
+              <h5 class="card-title">About Me</h5>
+              <p class="card-text">My name is Anant Gautam, and I am in 7th grade. I am 11 years old and have a strong interest in Physics and Math. Because of this passion, I am determined to become a scientist.</p>
+            </div>
+          </div>
+          <div class="card1" style="width: 18rem;">
+            <div class="card-body">
+              <h5 class="card-title">Skills</h5>
+              <p class="card-text1">I have an expertise in website developing through html and css, app developing through python etc.</p>
+            </div>
+          </div>
+          <div class="card2" style="width: 18rem;">
+            <div class="card-body">
+              <h5 class="card-title">Habit</h5>
+              <p class="card-text">I have a habit of reading books related to physics and solving mathematical problems. I also play the violin...</p>
+            </div>
+          </div>
+    </section>
+    <hr class="hr">
+    <div class="my work">
+      <p class="p-my_work">
+        My work
+      </p>
+      <div class="card-work1" style="width: 18rem;">
+        <img src="C:\Users\EC302WS\Downloads\33tty51n.png" class="card-img-top" alt="Imaginary hotel">
+        <h5 class="card-title">The View Ultimate</h5>
+        <div class="card-body">
+          <!-- <p class="card-text">This is a website of an imaginary hotel near a beach named "The View Ultimate".</p> -->
+          <p class="card-text">The website, "The View Ultimate", gives particulars of a resort which names the same. It shows flawlessly, the captivating and stunning resort and its views. </p>
+
         </div>
-        <a href="https://www.instagram.com/leisuregrafy/"><img class="instagram-link" src="instagram.svg" alt="instagram"></a>
-        <p class="copyright">© 2022, Anant Gautam, India</p>
-    </body>
-</html>
+      </div>
+    </div>
+    <div class="card-work" style="width: 18rem;">
+      <img src="C:\Users\EC302WS\OneDrive\Desktop\Anant\Anant's Coding\Website developing\HTML and CSS\Personal Website\Screenshot 2024-11-25 111632.png" class="card-img-top" alt="universe">
+      <div class="card-body">
+        <h5 class="card-title1">Universo</h5>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">Coming Soon</li>
+        </ul>
+        <p class="card-text">"Universo", a website that drives a persons curiosity to an orbit of an incredible world outside our world.</p>
+      </div>
+    </div>
+    <hr class="hr2">
+    <div class="container">
+      <div style="text-align:center">
+        <h2 class="contacts-title-given">Contact Me</h2>
+      </div>
+      <div class="row">
+        <div class="column">
+          <form action="/action_page.php">
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your name..">
+            <label class="Last-Name-title" for="lname">Last Name</label>
+            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+            <label class="country-title" for="country">Country</label>
+            <select id="country" name="country">
+              <option value="australia">Australia</option>
+              <option value="canada">Canada</option>
+              <option value="usa">USA</option>
+              <option value="India">Inida</option>
+              <option value="usa">Russia</option>
+              <option value="usa">England</option>
+              <option value="usa">New Zealand</option>
+              <option value="usa">Iraq</option>
+              <option value="usa">Iran</option>
+              <option value="usa">Sri Lanka</option>
+              <option value="usa">Singapore</option>
+
+            </select>
+            <label class="subject-title" for="subject">Subject</label>
+            <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+            <input class="sumbit" type="submit" value="Submit">
+          </form>
+        </div>
+      </div>
+    </div>
+    <hr class="hr4">
+    <p class="copyright">© 2024, Anant Gautam, India</p>
+</body>
