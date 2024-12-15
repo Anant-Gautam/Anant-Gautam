@@ -1,3 +1,3 @@
 # Anant-s-Personal-Site
 
-I've recently launched my inaugural website, which serves as a comprehensive introduction to my background, skills, and experience as a proficient programmer and adept website developer. This platform delivers in-depth insights into my professional journey and the value I bring to the table.
+Welcome to the enhanced version of my Personal Website. This update introduces a bold new theme and concept you will surely enjoy. Dive in and explore what’s new!
