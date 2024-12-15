@@ -1,73 +1,228 @@
-/* Scrollbar */
-::-webkit-scrollbar {
-  width: 13px;
-}
-
-::-webkit-scrollbar-track {
-  background: #00959;
-}
-
-::-webkit-scrollbar-thumb {
-  background: #384973;
-}
-
-/* Selection */
 ::selection {
-    color: #A6E3E9;
+    color: rgb(88, 100, 109);
 }
 
-/* Elements */
 body {
-    font-family: "Montserrat", sans-serif;
-    margin: 0px 0px;
-    text-align: center;
+    background-color: #041523;
 }
 
-.Anant {
-    background-color: #00959E;
-    color: #fff;
-    text-align: center;
-    padding: 40px;
-}
-
-/* Header Section */
-.profile-image {
-    margin-bottom: 20px;
-    width: 250px;
-    height: 250px;
-}
-
-.heading {
-    font-family: "Sacramento", cursive;
-    font-size: 60px;
-}
-
-.intro {
+.subtitle {
+    font-family: "Parkinsans", sans-serif;
+    color: whitesmoke;
     font-size: 25px;
-    margin-left: 350px;
+    margin-top: 20px;
+    margin-left: 530px;
 }
 
-/* Navigation Section */
-.nav-bar {
-    text-align: right;
-    padding: 20px;
-    margin-left: 250px;
+.image-main {
+    height: 600px;
+    margin-left: -10px;
+    margin-top: 10px;
+    width: 900px;
+    border-radius: 40px;
+    opacity: 0.8;
 }
 
-.nav-link {
+.Title {
+    background-size: auto;
+    height: 280px;
+    width: 450px;
+    padding: 35px;
+    border-radius: 20px;
+    background-color: #062138;
     color: white;
-    text-decoration: none;
-    font-size: 18px;
+    font-size: 40px;
+    font-family: "Edu AU VIC WA NT Pre", cursive;
+    margin-left: 780px;
+    margin-top: -480px;
+    position: absolute;
 }
 
-/* Copyright Section */
-.instagram-link {
-    height: 30px;
-    width: 30px;
-    margin-top: 15px;
-    margin-bottom: 10px;
+.card1 {
+    margin-left: 480px;
+    margin-top: -360px;
+    border-radius: 15px;
+    background-color: #011d35;
+    color: whitesmoke;
+    padding: 15px;
+    height: 300px;
+}
+
+
+.card {
+    margin-left: 50px;
+    margin-top: 150px;
+    border-radius: 15px;
+    background-color: #011d35;
+    color: whitesmoke;
+    padding: 15px;
+    height: 300px;
+
+}
+
+.card2 {
+    margin-left: 900px;
+    margin-top: -240px;
+    border-radius: 15px;
+    background-color: #011d35;
+    color: whitesmoke;
+    padding: 15px;
+    height: 300px;
+}
+
+.head-text {
+    margin-top: 60px;
+    font-size: 35px;
+    margin-left: 520px;
+    color: whitesmoke;
+}
+
+.card-text {
+    margin-top: 20px;
+}
+
+.card-text1 {
+    margin-top: 50px;
+}
+
+.card-text2 {
+    margin-top: 50px;
+}
+
+.hr {
+    background-color: white;
+    margin-top: 50px;
+}
+
+.p-my_work {
+    color: whitesmoke;
+    font-size: 35px;
+    margin-top: 50px;
+    margin-left: 560px;
+}
+
+.card-work {
+    margin-left: 800px;
+    margin-top: -440px;
+    border-radius: 15px;
+    background-color: #011d35;
+    color: whitesmoke;
+    padding: 0px;
+}
+
+.card-work1 {
+    margin-top: 60px;
+    margin-left: 100px;
+    padding: 5px;
+    background-color: #011d35;
+    border-radius: 15px;
+    color: whitesmoke;
+    height: 450px;
+}
+
+.slogan {
+    font-size: 20px;
+    margin-top: 40px;
+    font-family: "Parkinsans", sans-serif;
+}
+
+.card-img-top {
+    height: 200px;
+    width: 400px;
+    border-radius: 15px;
+}
+
+.card-img-top1 {
+    height: 200px;
+    width: 400px;
+    border-radius: 15px;
+}
+
+.card-title {
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.card-title1 {
+   margin-top: 10px; 
+   margin-left: 10px;
+}
+
+.list-group-item {
+    background-color: #062138;
+    color: whitesmoke;
+    width: 288px;
+    margin-left: -16px;
+    margin-top: 20px;
+}
+
+.hr2 {
+    color: whitesmoke;
+    margin-top: 50px;
+}
+
+.container {
+    background-color: #041523;
+    color: whitesmoke;
+    margin-top: 50px;
+    padding: 20px;
+    width: 800px;
+}
+
+.contacts-title-given {
+    font-family: "Parkinsans", sans-serif;
+}
+
+#fname {
+    background-color: #041523;
+    color: whitesmoke;
+    margin-top: 40px;
+}
+
+#lname {
+    background-color: #041523;
+    color: whitesmoke;
+    margin-top: 40px;
+}
+
+#subject {
+    background-color: #041523;
+    color: whitesmoke;
+    margin-top: 40px;
+}
+
+#country{
+    background-color: #041523;
+    color: whitesmoke;
+    margin-top: 40px;
+
+}
+
+.sumbit {
+    margin-top: 40px;
+    margin-left: 330px;
+}
+
+.hr4 {
+    color: whitesmoke;
 }
 
 .copyright {
-    font-size: 12px;
+    font-family: "Parkinsans", sans-serif;
+    color: whitesmoke;
+    margin-top: 50px;
+    margin-left: 510px;
+    margin-bottom: 40px;
+}
+
+.subject-title {
+    margin-top: 40px;
+}
+
+.country-title {
+    margin-top: 20px;
+}
+
+.Last-Name-title {
+    margin-top: 20px;
 }
